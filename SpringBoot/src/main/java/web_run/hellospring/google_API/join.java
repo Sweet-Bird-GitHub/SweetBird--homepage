@@ -4,17 +4,21 @@ import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.util.List;
 
 import static web_run.hellospring.google_API.SheetsQuickstart.*;
-
+@Repository
+@RequiredArgsConstructor
 
 public class join {
 
-    public static String[] main() throws IOException, GeneralSecurityException {
+    public String[] AdminMember() throws IOException, GeneralSecurityException {
           String[] output={"에러","에러",};
 
 
