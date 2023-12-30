@@ -13,10 +13,10 @@ import java.security.GeneralSecurityException;
 import java.util.List;
 
 import static web_run.hellospring.google_API.SheetsQuickstart.*;
-@Repository
-@RequiredArgsConstructor
+//@Repository
+//@RequiredArgsConstructor
 
-public class join {
+public  class join {
 
     public String[] AdminMember() throws IOException, GeneralSecurityException {
           String[] output={"에러","에러",};

@@ -14,10 +14,10 @@ public class googleSheetSystemTest {
     @Test
     @DisplayName("googleSheet_api_검증")
     void sheetTest() throws GeneralSecurityException, IOException {
-        String[] st;
+
 
         join Join=new join();
-        st=Join.main();
+        String[] st = Join.AdminMember();
 
         for(String a:st)
         {

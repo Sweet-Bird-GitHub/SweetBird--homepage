@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.ApplicationContext_TEST" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-30T17:37:36" hostname="gimjonghag-ui-MacBookAir.local" time="0.005">
+  <properties/>
+  <testcase name="runP()" classname="test.ApplicationContext_TEST" time="0.005"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+configuration
+ct
+MS
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

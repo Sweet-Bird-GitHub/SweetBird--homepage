@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.googleSheetSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-19T10:06:21" hostname="gimjonghag-ui-MacBookAir.local" time="1.592">
-  <properties/>
-  <testcase name="googleSheet_api_검증" classname="test.googleSheetSystemTest" time="1.592"/>
-  <system-out><![CDATA[에러
-에러
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

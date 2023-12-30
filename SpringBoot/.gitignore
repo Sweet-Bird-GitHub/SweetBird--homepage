@@ -1,3 +1,4 @@
-tokens
-src/resources/credentials.json
-/Users/jonghak/Desktop/SB_project/SpringBoot/src/main/resources
+
+
+# 특정 디렉토리 제외
+web_run/hellospring/google_API/
