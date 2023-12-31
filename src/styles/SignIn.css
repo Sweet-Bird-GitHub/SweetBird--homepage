@@ -1,0 +1,123 @@
+.signIn-background{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signIn-id-input, .signIn-password-input{
+    background-color: black;
+    border: 0px;
+    border-bottom: solid white 2px;
+    width: 20vw;
+
+    color: white;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.signIn-id-input:focus, .signIn-password-input:focus {
+    outline: none;
+    border-bottom: solid white 2px;
+
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    background-clip: text;
+}
+
+.signIn-title {
+    font-size: 100px;
+    margin-left: 5vw;
+    width: 50vw;
+
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    background-clip: text;
+}
+
+.signIn-id {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 10vh;
+
+    font-size: 30px;
+}
+
+.signIn-id-title {
+    margin-right: 2vw;
+}
+
+.signIn-password {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 2vh;
+
+    font-size: 30px;
+}
+
+.signIn-password-title {
+    margin-right: 2vw;
+}
+
+.signIn-button {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    padding: 0px;
+    padding-bottom: 2px;
+
+    background-color: black;
+    border: 1px white;
+    color: white;
+    
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.signIn-button:active {
+    color: transparent;
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    background-clip: text;
+}
+
+.signIn-button:hover {
+    border: 0px;
+    border-bottom: solid white 2px;
+    padding-bottom: 0px;
+
+    border-image: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    border-image-slice: 1;
+}
+
+.signIn-to-signUp {
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    width: 18vw;
+    padding-bottom: 2px;
+
+    font-size: 20px;
+}
+
+.signIn-to-signUp:hover{
+    border: 0px;
+    border-bottom: solid white 2px;
+    padding-bottom: 0px;
+
+    border-image: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    border-image-slice: 1;
+}
+
+.signIn-to-signUp:active {
+    color: transparent;
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    background-clip: text;
+}

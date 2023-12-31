@@ -1,0 +1,75 @@
+.information{
+    background-color: black;
+    color: white;
+
+    font-family: 'GmarketSans';
+    font-weight: 700;
+}
+
+.introduce-club{
+    height:  70vh;
+    margin-left: 5vw;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ask-club{
+    display: flex;
+}
+
+.introduce-ment{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.information-highlight{
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.introduce-QA{
+    font-size: 40px;
+
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.introduce-activity{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 30px;
+}
+
+.activity-title{
+    display: flex;
+    margin-left: 5vw;
+}
+
+.activities{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activities > div {
+    width: 15vw;
+    text-align: center;
+    margin-top: 10vh;
+
+    border: 1px white;
+}
+
+.first-act-name, .second-act-name, .third-act-name{
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.first-act-information, .second-act-information, .third-act-information{
+    margin-top: 2vh;
+}

@@ -1,0 +1,45 @@
+.bulletin{
+    background-color: black;
+    color: white;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bulletin-title{
+    background-color: aqua;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+
+    font-size: 20px;
+}
+
+.bulletin-posts{
+    background-color: blue;
+    margin-left: 5vw;
+
+    height: 50vh;
+}
+
+.bulletin-posts-uploaded{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bulletin-move-page{
+    background-color: brown;
+    margin-left: 5vw;
+    margin-top: 10vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.bulletin-move-page > div {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}

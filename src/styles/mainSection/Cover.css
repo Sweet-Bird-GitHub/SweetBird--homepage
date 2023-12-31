@@ -1,0 +1,55 @@
+.cover{
+    background-color: black;
+    color: white;
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.club_title{
+    font-size: 100px;
+    margin-left: 5vw;
+    width: 50vw;
+
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.short_description_of_club{
+    font-size: 30px;
+    margin-left: 5vw;
+    margin-top: 2vh;
+
+    display: flex;
+}
+
+.short_description_of_club > *{
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.using_language{
+    display: flex;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    width: 10vw;
+
+    background: linear-gradient(to right, rgb(255, 151, 238), rgb(75, 189, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.using_language > * {
+    margin-right: 1vw;
+}
